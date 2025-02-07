@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 169290407}
   - component: {fileID: 169290406}
   m_Layer: 0
-  m_Name: Bottom Boundary
+  m_Name: BottomBoundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -335,7 +335,7 @@ GameObject:
   - component: {fileID: 410087040}
   - component: {fileID: 410087042}
   m_Layer: 0
-  m_Name: Directional Light
+  m_Name: DirectionalLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -454,7 +454,7 @@ GameObject:
   - component: {fileID: 443932607}
   - component: {fileID: 443932606}
   m_Layer: 0
-  m_Name: Top Boundary
+  m_Name: TopBoundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -689,7 +689,7 @@ GameObject:
   - component: {fileID: 794734235}
   - component: {fileID: 794734234}
   m_Layer: 0
-  m_Name: Left Boundary
+  m_Name: LeftBoundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -830,7 +830,7 @@ GameObject:
   - component: {fileID: 832575519}
   - component: {fileID: 832575518}
   m_Layer: 0
-  m_Name: Global Volume
+  m_Name: GlobalVolume
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -881,7 +881,7 @@ GameObject:
   - component: {fileID: 1316101882}
   - component: {fileID: 1316101881}
   m_Layer: 0
-  m_Name: Front Boundary
+  m_Name: FrontBoundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1065,7 +1065,7 @@ PrefabInstance:
     - target: {fileID: 8047161636021232021, guid: c708a3b79cd542b42bbfedb17e213bc1,
         type: 3}
       propertyPath: m_Name
-      value: Player Character
+      value: PlayerCharacter
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1091,7 +1091,7 @@ GameObject:
   - component: {fileID: 1414269114}
   - component: {fileID: 1414269113}
   m_Layer: 0
-  m_Name: Right Boundary
+  m_Name: RightBoundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1197,7 +1197,7 @@ GameObject:
   - component: {fileID: 1761758582}
   - component: {fileID: 1761758581}
   m_Layer: 0
-  m_Name: Rear Boundary
+  m_Name: RearBoundary
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
