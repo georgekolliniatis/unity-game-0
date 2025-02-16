@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Greek (el)
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Greek (el)
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 20d1a5db67e514ce5b43c6f60e77c33a
+  m_SerializeEntries:
+  - m_GUID: a5491c603ddce3b7894b5f0d1fe34468
+    m_Address: FlagOfGreeceSquare
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-el
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 92a5411c67c7c1c93b266d96726a60b6, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2bbe883081ab3fd5ea64ac620ff4a224, type: 2}
+    - {fileID: 11400000, guid: a2ab38aa067c55c27adbfabdc4b732b3, type: 2}
