@@ -7,7 +7,7 @@ using UnityEngine.Localization;
 using UnityEngine.Localization.Settings;
 using UnityEngine.ResourceManagement.AsyncOperations;
 
-namespace Assets._Game.Scripts
+namespace Assets._Game.Localization
 {
     [RequireComponent(typeof(TMP_Dropdown))]
 
