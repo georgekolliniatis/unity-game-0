@@ -76,9 +76,9 @@ namespace Assets._Game.Localization
             m_LocaleDropdown.interactable = true;
         }
 
-        IEnumerator Start()
+        void Start()
         {
-            yield return InitializeLocaleDropdown();
+            StartCoroutine(InitializeLocaleDropdown());
         }
     }
 }
