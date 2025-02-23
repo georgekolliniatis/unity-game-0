@@ -17,7 +17,35 @@ MonoBehaviour:
   m_SharedData: {fileID: 11400000, guid: 87437a30c40c46ea9a555c2cbd63f8e6, type: 2}
   m_Metadata:
     m_Items: []
-  m_TableData: []
+  m_TableData:
+  - m_Id: 319608398041088
+    m_Localized: Medieval Village
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319783438929920
+    m_Localized: Main Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319926464696320
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320022157742080
+    m_Localized: Options
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320144631418880
+    m_Localized: Help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320265943273472
+    m_Localized: About
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320392904855552
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

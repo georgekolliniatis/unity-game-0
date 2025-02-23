@@ -14,7 +14,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_TableCollectionName: StringTableCollection_0
   m_TableCollectionNameGuidString: 87437a30c40c46ea9a555c2cbd63f8e6
-  m_Entries: []
+  m_Entries:
+  - m_Id: 319608398041088
+    m_Key: GameTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319783438929920
+    m_Key: MainMenuPanelLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319926464696320
+    m_Key: PlayButtonLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320022157742080
+    m_Key: OptionsButtonLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320144631418880
+    m_Key: HelpButtonLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320265943273472
+    m_Key: AboutButtonLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320392904855552
+    m_Key: QuitButtonLabel
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
