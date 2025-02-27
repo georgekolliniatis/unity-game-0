@@ -11,4 +11,4 @@
         eval \"$(git for-each-ref --shell --format='git checkout --track %(refname)' refs/remotes/${1})\"; \
         git clean -df; \
     }; _"
-    reset-all-to-origin = "reset-all-to-remote origin"
+    reset-all-to-github = "reset-all-to-remote github"
