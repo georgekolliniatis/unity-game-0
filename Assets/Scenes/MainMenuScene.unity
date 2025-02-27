@@ -421,7 +421,6 @@ GameObject:
   - component: {fileID: 401298133}
   - component: {fileID: 401298132}
   - component: {fileID: 401298131}
-  - component: {fileID: 401298134}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -493,7 +492,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 401298134}
+      - m_Target: {fileID: 1009296303}
         m_TargetAssemblyTypeName: Assets._Game.Menus.MainMenu.MainMenu, Assembly-CSharp
         m_MethodName: OnQuitButtonClicked
         m_Mode: 1
@@ -543,18 +542,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 401298129}
   m_CullTransparentMesh: 1
---- !u!114 &401298134
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 401298129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5089911ec3299e0659c42213953a5676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &433921796
 GameObject:
   m_ObjectHideFlags: 0
@@ -1242,6 +1229,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1009296302}
+  - component: {fileID: 1009296303}
   m_Layer: 0
   m_Name: MainMenu
   m_TagString: Untagged
@@ -1268,6 +1256,18 @@ Transform:
   - {fileID: 711769253}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1009296303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1009296301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5089911ec3299e0659c42213953a5676, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!224 &1249184038 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3657363735904770300, guid: 9ba75b9287c2d188593abe8474eaba8a,
@@ -2592,7 +2592,6 @@ GameObject:
   - component: {fileID: 2028117578}
   - component: {fileID: 2028117577}
   - component: {fileID: 2028117576}
-  - component: {fileID: 2028117579}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -2664,7 +2663,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2028117579}
+      - m_Target: {fileID: 1009296303}
         m_TargetAssemblyTypeName: Assets._Game.Menus.MainMenu.MainMenu, Assembly-CSharp
         m_MethodName: OnPlayButtonClicked
         m_Mode: 1
@@ -2714,18 +2713,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2028117574}
   m_CullTransparentMesh: 1
---- !u!114 &2028117579
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2028117574}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5089911ec3299e0659c42213953a5676, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &4732760849772308130
 PrefabInstance:
   m_ObjectHideFlags: 0

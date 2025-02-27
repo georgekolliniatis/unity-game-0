@@ -20,7 +20,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 319783438929920
-    m_Key: MainMenuPanelLabel
+    m_Key: MainMenuLabel
     m_Metadata:
       m_Items: []
   - m_Id: 319926464696320
@@ -41,6 +41,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 320392904855552
     m_Key: QuitButtonLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1818038278574080
+    m_Key: ResumeButtonLabel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1820879630127104
+    m_Key: PauseMenuLabel
     m_Metadata:
       m_Items: []
   m_Metadata:
