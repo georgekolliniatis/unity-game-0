@@ -1,3 +1,4 @@
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,9 +13,11 @@ namespace Assets.Game.Data.Menus.MainMenu
 
         public void OnQuitButtonClicked()
         {
-            Debug.LogWarning("Game: QUIT action ignored in Unity Editor");
-
+#if UNITY_EDITOR
+            EditorApplication.ExitPlaymode();
+#else
             Application.Quit();
+#endif
         }
     }
 }
