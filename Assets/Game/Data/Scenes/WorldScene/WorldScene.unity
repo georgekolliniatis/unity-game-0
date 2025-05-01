@@ -43169,6 +43169,7 @@ GameObject:
   - component: {fileID: 1737054429528262134}
   - component: {fileID: 1743436768063910324}
   - component: {fileID: 1768054639509613330}
+  - component: {fileID: 1768054639509613331}
   m_Layer: 0
   m_Name: WoodenHouse_door (1)
   m_TagString: Untagged
@@ -43539,6 +43540,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.3922844, y: 2.1082928, z: 0.1}
   m_Center: {x: 0.66402817, y: 0.11868155, z: 0.05212736}
+--- !u!95 &1768054639509613331
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758217544254024464}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7c8549588d7be3b469afb7ce2053796c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!65 &1768326805222479734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -127519,6 +127541,7 @@ GameObject:
   - component: {fileID: 3329406793792581161}
   - component: {fileID: 3319339718807581541}
   - component: {fileID: 3362640811308760627}
+  - component: {fileID: 3362640811308760628}
   m_Layer: 0
   m_Name: WoodenHouse_door
   m_TagString: Untagged
@@ -128117,6 +128140,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.3922844, y: 2.1082928, z: 0.1}
   m_Center: {x: 0.66402817, y: 0.11868155, z: 0.05212736}
+--- !u!95 &3362640811308760628
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3334488394383792775}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7c8549588d7be3b469afb7ce2053796c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!65 &3362777805524503241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -133440,6 +133484,7 @@ GameObject:
   - component: {fileID: 7921820775554146761}
   - component: {fileID: 7911575357231113513}
   - component: {fileID: 7886246847776157353}
+  - component: {fileID: 7921820775554146762}
   m_Layer: 0
   m_Name: WoodenHouse_door (2)
   m_TagString: Untagged
@@ -133947,6 +133992,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7899006710321531731}
   m_Mesh: {fileID: 4300000, guid: a79220c63e2dfc648b55d441d19d0688, type: 3}
+--- !u!95 &7921820775554146762
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7899006710321531731}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7c8549588d7be3b469afb7ce2053796c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &7943114607086339804
 Transform:
   m_ObjectHideFlags: 0
