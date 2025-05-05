@@ -1,18 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class IInteractor : MonoBehaviour
+namespace Assets.Game.Data.Interactions
 {
-    // Start is called before the first frame update
-    void Start()
+    public interface IInteractor
     {
-        
-    }
+        void OnStopInteraction();
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        void OnUnfocus();
+
+        void OnFocus(IInteractable _);
+
+        void OnStartInteraction();
+
+        void OnCheckForInteractable();
     }
 }
