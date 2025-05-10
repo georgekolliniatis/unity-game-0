@@ -1,13 +1,17 @@
-namespace Assets.Game.Data.Interactions
+using System.Collections.Generic;
+using UnityEngine;
+
+namespace Assets.Game.Data.InteractionSystem
 {
     public interface IInteractable
     {
-        void OnStopInteraction();
+        bool MakeSelectiveInteractions { get; }
+        List<GameObject> AllowedInteractors { get; }
 
-        void OnUnfocus();
+        void Focus(IInteractor interactor);
 
-        void OnFocus();
+        void Unfocus(IInteractor interactor);
 
-        void OnStartInteraction();
+        void SetOriginalInteractable(IInteractable interactable);
     }
 }

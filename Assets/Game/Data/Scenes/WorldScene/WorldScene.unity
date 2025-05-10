@@ -43575,6 +43575,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1982f550c516c7b4c9b0ce1de678a5c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_MakeSelectiveInteractions: 0
+  m_AllowedInteractors: []
+  m_OnFocus:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnUnfocus:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnOpen:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnClose:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &1768326805222479734
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -128188,6 +128202,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1982f550c516c7b4c9b0ce1de678a5c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_MakeSelectiveInteractions: 1
+  m_AllowedInteractors:
+  - {fileID: 974238577577541943}
+  m_OnFocus:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnUnfocus:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnOpen:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnClose:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &3362777805524503241
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -132476,6 +132505,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f283221daca2ad04ba315bc3d685f835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_ChecksPerSecond: 1
+  m_InteractableGameObjectsInSight: []
+  m_RaycastMaxDistance: 10
 --- !u!4 &7082370647844642933
 Transform:
   m_ObjectHideFlags: 0
@@ -134065,6 +134097,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1982f550c516c7b4c9b0ce1de678a5c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_MakeSelectiveInteractions: 0
+  m_AllowedInteractors: []
+  m_OnFocus:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnUnfocus:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnOpen:
+    m_PersistentCalls:
+      m_Calls: []
+  m_OnClose:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!4 &7943114607086339804
 Transform:
   m_ObjectHideFlags: 0

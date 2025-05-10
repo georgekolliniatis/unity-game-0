@@ -1,18 +1,24 @@
-using System.Collections;
-using System.Collections.Generic;
+using Assets.Game.Data.InteractionSystem;
 using UnityEngine;
 
-public class RaycastInteractor : MonoBehaviour
+namespace Assets.Game.Data.GameObjects.PlayerArmature
 {
-    // Start is called before the first frame update
-    void Start()
+    public class RaycastInteractor : BaseInteractor
     {
-        
-    }
+        [SerializeField] protected float m_RaycastMaxDistance = 10.0f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        protected override void InitializeInteractor()
+        {
+            base.InitializeInteractor();
+
+            StopAllCoroutines();
+
+            StartCoroutine(CheckForInteractables(() =>
+            {
+                if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out RaycastHit hitInfo, m_RaycastMaxDistance))
+                    FocusOnOne(hitInfo.collider.gameObject, true);
+                else UnfocusFromAll();
+            }));
+        }
     }
 }

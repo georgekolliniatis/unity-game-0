@@ -1,15 +1,11 @@
-namespace Assets.Game.Data.Interactions
+using UnityEngine.InputSystem;
+
+namespace Assets.Game.Data.InteractionSystem
 {
     public interface IInteractor
     {
-        void OnStopInteraction();
+        void AddInputActions(InputAction[] inputActions);
 
-        void OnUnfocus();
-
-        void OnFocus(IInteractable _);
-
-        void OnStartInteraction();
-
-        void OnCheckForInteractable();
+        void RemoveInputActions(string[] inputActionNames);
     }
 }
