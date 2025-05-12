@@ -54,6 +54,14 @@ MonoBehaviour:
     m_Localized: Pause Menu
     m_Metadata:
       m_Items: []
+  - m_Id: 28688100520120320
+    m_Localized: Hello, my friend!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28688361066090496
+    m_Localized: Press E to open and Q to close the door
+    m_Metadata:
+      m_Items: []
   references:
     version: 2
     RefIds: []

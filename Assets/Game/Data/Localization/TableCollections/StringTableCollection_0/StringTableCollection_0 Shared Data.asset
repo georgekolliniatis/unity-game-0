@@ -51,6 +51,14 @@ MonoBehaviour:
     m_Key: PauseMenuLabel
     m_Metadata:
       m_Items: []
+  - m_Id: 28688100520120320
+    m_Key: ErikaArcherMessage_0
+    m_Metadata:
+      m_Items: []
+  - m_Id: 28688361066090496
+    m_Key: WoodenHouseDoorMessage_0
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

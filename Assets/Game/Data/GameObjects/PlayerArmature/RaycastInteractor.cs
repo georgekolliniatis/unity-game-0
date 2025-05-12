@@ -15,7 +15,7 @@ namespace Assets.Game.Data.GameObjects.PlayerArmature
 
             StartCoroutine(CheckForInteractables(() =>
             {
-                if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out RaycastHit hitInfo, m_RaycastMaxDistance))
+                if (Physics.Raycast(transform.position + Vector3.up, transform.forward, out RaycastHit hitInfo, m_RaycastMaxDistance) && hitInfo.collider.TryGetComponent(out IInteractable _))
                     FocusOnOne(hitInfo.collider.gameObject, true);
                 else UnfocusFromAll();
             }));
